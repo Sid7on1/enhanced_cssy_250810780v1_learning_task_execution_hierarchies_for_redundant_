@@ -1,0 +1,48 @@
+# requirements.txt
+
+# Core libraries
+numpy==1.23.3
+pandas==1.5.2
+torch==1.15.0
+
+# Genetic algorithm and reinforcement learning libraries
+deap==1.3
+stable-baselines3==1.8.0
+
+# Utilities
+scipy==1.9.3
+scikit-learn==1.1.3
+matplotlib==3.6.3
+seaborn==0.11.2
+
+# Testing and debugging
+pytest==7.2.1
+pdbpp==0.17.0
+
+# Performance and optimization
+numba==0.59.0
+cython==0.31.27
+
+# Threading and concurrency
+threading==0.7.6
+multiprocessing==3.0.0
+
+# Logging and debugging
+logging==0.5
+loguru==0.6.7
+
+# Type hints and annotations
+pylint==3.1.3
+mypy==0.982
+
+# Scientific computing and data manipulation
+scipy
+scikit-learn
+
+# Plotting and visualization
+matplotlib
+seaborn
+
+# NOTE: Remember to regularly update dependencies to ensure security and compatibility.
+# Use a virtual environment and package management tools (e.g., pip, conda) to manage dependencies effectively.
+# Consider using requirement files (e.g., requirements.txt, environment.yml) to track and reproduce specific environments.
